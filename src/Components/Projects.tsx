@@ -1,4 +1,3 @@
-// export default Projects;
 import React from "react";
 import Image from "next/image";
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -13,7 +12,7 @@ const Projects = () => {
           {/* Project 1 */}
           <div className="relative group">
             <Image
-              src="/img2.png"
+              src="/images/img2.png"
               alt="Your Image Description"
               width={300}
               height={200}
@@ -30,7 +29,7 @@ const Projects = () => {
           {/* Project 2 */}
           <div className="relative group">
             <Image
-              src="/img2.png"
+              src="/images/img2.png"
               alt="Your Image Description"
               width={300}
               height={200}
@@ -47,7 +46,7 @@ const Projects = () => {
           {/* Project 3 */}
           <div className="relative group">
             <Image
-              src="/img2.png"
+              src="/images/img2.png"
               alt="Your Image Description"
               width={300}
               height={200}
@@ -64,7 +63,7 @@ const Projects = () => {
           {/* Project 4 */}
           <div className="relative group">
             <Image
-              src="/img2.png"
+              src="/images/img2.png"
               alt="Your Image Description"
               width={300}
               height={200}
@@ -81,7 +80,7 @@ const Projects = () => {
           {/* Project 5 */}
           <div className="relative group">
             <Image
-              src="/img2.png"
+              src="/images/img2.png"
               alt="Your Image Description"
               width={300}
               height={200}
@@ -98,7 +97,7 @@ const Projects = () => {
           {/* Project 6 */}
           <div className="relative group">
             <Image
-              src="/img2.png"
+              src="/images/img2.png"
               alt="Your Image Description"
               width={300}
               height={200}
@@ -115,7 +114,7 @@ const Projects = () => {
           {/* Project 7 */}
           <div className="relative group">
             <Image
-              src="/img2.png"
+              src="/images/img2.png"
               alt="Your Image Description"
               width={300}
               height={200}
@@ -132,7 +131,7 @@ const Projects = () => {
           {/* Project 8 */}
           <div className="relative group">
             <Image
-              src="/img2.png"
+              src="/images/img2.png"
               alt="Your Image Description"
               width={300}
               height={200}

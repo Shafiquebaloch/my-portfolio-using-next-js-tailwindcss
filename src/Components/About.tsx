@@ -1,7 +1,7 @@
-
-// export default About;
 import React from "react";
 import Image from "next/image";
+// import picture from "../../Public/images/img3.jpg"
+// import Link from "next/link";
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
             {/* Image Section */}
             <div className="bg-[#835e7a] p-4 rounded-lg shadow-lg flex-shrink-0">
               <Image
-                src="/img3.jpg"
+                src="/images/img3.jpg"
                 alt="A person standing in a park with trees and a colorful structure in the background"
                 width={300}
                 height={200}

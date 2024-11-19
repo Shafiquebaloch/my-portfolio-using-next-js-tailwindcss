@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Skills() {
   return (
     <section className="bg-[#8b70d6] py-20 px-4">

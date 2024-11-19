@@ -1,7 +1,6 @@
-// export default Footer;
-
 import React from "react";
 import { FaLinkedin, FaGithubSquare, FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
+// import Link from "next/link"
 
 const Footer = () => {
   return (

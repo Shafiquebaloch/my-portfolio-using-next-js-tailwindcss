@@ -1,7 +1,5 @@
 "use client";
-
 import React, { useState } from "react";
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -40,7 +38,7 @@ const Header = () => {
             About
           </a>
           <a
-            href="/Skill"
+            href="/Skills"
             className="text-base sm:text-xl md:text-2xl lg:text-2xl font-bold text-white hover:text-orange-500"
           >
             Skills

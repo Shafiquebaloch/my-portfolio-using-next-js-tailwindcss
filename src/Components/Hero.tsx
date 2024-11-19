@@ -1,4 +1,3 @@
-// export default Hero;
 import React from "react";
 import Image from "next/image";
 import { FaFacebook, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
@@ -41,7 +40,7 @@ const Hero = () => {
           {/* Image Section */}
           <div className="mt-8 md:mt-0">
             <Image
-              src="/img2.png" // Ensure the path starts with slash
+              src="/images/img2.png" 
               alt="Your Image Description"
               width={400}
               height={400}

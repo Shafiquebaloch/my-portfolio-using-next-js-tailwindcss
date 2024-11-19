@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 const About = () => {
   return (
     <div>
@@ -16,7 +17,7 @@ const About = () => {
 
       
             <Image
-        src="/img3.jpg"  // Path ko slash se start karna hoga
+        src="/images/img3.jpg"  // Path ko slash se start karna hoga
         alt="A person standing in a park with trees and a colorful structure in the background"
         width={300}
         height={300} className="rounded-lg shadow-lg"
