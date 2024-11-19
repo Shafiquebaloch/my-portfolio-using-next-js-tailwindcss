@@ -1,16 +1,17 @@
 import React from "react";
 import Image from "next/image";
-// import picture from "../../Public/images/img3.jpg"
-// import Link from "next/link";
+import myImg from "../../../Public/images/img3.jpg"
+
+
 
 const About = () => {
   return (
     <div>
-      <section className="bg-gray-300 py-10 px-4" id="About">
+      <section className="bg-gray-400 py-10 px-4" id="About">
         <div className="mx-auto py-10 max-w-6xl">
           {/* Heading Section */}
           <div className="text-center mb-10">
-            <h1 className="text-3xl md:text-4xl font-bold">About</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-blue-950">About</h1>
             <div className="w-20 md:w-40 h-1 bg-white mx-auto mt-2"></div>
           </div>
           
@@ -19,7 +20,7 @@ const About = () => {
             {/* Image Section */}
             <div className="bg-[#835e7a] p-4 rounded-lg shadow-lg flex-shrink-0">
               <Image
-                src="/images/img3.jpg"
+                src={myImg}
                 alt="A person standing in a park with trees and a colorful structure in the background"
                 width={300}
                 height={200}
@@ -29,16 +30,16 @@ const About = () => {
             
             {/* Text Section */}
             <div className="max-w-md text-center md:text-left">
-              <h2 className="text-xl md:text-2xl font-bold mb-4">
+              <h2 className="text-xl md:text-2xl font-bold mb-4 text-blue-950">
                 Frontend Developer &amp; UI / UX Designer
               </h2>
-              <p className="mb-4 text-sm md:text-base leading-relaxed">
+              <p className="mb-4 text-sm md:text-base leading-relaxed text-blue-950">
                 I am Muhammad Shafique, a frontend developer with a passion for creating intuitive and visually appealing web experiences. With a strong foundation in HTML, CSS, JavaScript, and frameworks like React, I focus on building responsive, user-friendly interfaces that bring ideas to life.
               </p>
-              <p className="mb-6 text-sm md:text-base leading-relaxed">
+              <p className="mb-6 text-sm md:text-base leading-relaxed text-blue-950">
                 I believe in the power of design to communicate, inspire, and create connections. Beyond coding, I’m driven by creativity, curiosity, and a commitment to continuous learning.
               </p>
-              <button className="bg-[#ffffff] text-black py-2 px-6 rounded-full font-bold hover:bg-[#ff4b4b] transition duration-300">
+              <button className="bg-[#ffffff] text-black py-2 px-6 rounded-full font-bold hover:bg-[#ff4b4b] transition duration-300 text text-red-600">
                 Read More...
               </button>
             </div>

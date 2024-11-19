@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { FaFacebook, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa"
+import logo from "../../../Public/images/img2.png"
 
 const Hero = () => {
   return (
     <div>
-      <section className="text-center py-10 px-4 bg-gray-300" id="Home">
+      <section className="text-center py-10 px-4 bg-gray-400" id="Home">
         <div className="flex flex-col md:flex-row justify-center items-center">
           {/* Text Section */}
           <div className="text-center md:text-left md:max-w-lg md:mr-10">
@@ -40,7 +41,7 @@ const Hero = () => {
           {/* Image Section */}
           <div className="mt-8 md:mt-0">
             <Image
-              src="/images/img2.png" 
+              src={logo}
               alt="Your Image Description"
               width={400}
               height={400}

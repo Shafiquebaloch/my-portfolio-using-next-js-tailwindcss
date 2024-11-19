@@ -1,8 +1,9 @@
 import React from "react";
 
+
 export default function Skills() {
   return (
-    <section className="bg-gray-300 py-20 px-4" id="Skill">
+    <section className="bg-gray-400 py-20 px-4" id="Skill">
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center">
         My <span className="text-orange-500">Skills</span>
       </h2>
@@ -82,3 +83,4 @@ export default function Skills() {
     </section>
   );
 }
+Skills()

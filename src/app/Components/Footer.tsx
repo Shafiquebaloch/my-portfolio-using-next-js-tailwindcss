@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithubSquare, FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
-// import Link from "next/link"
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -22,24 +22,24 @@ const Footer = () => {
             <h2 className="text-xl font-bold mb-4">Quick Links</h2>
             <ul>
               <li className="mb-2">
-                <a href="#Home" className="text-gray-400 hover:text-white">
+                <Link href="#Home" className="text-gray-400 hover:text-white">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="#Services" className="text-gray-400 hover:text-white">
-                  Services
-                </a>
+                <Link href="#Projects" className="text-gray-400 hover:text-white">
+                  Projects
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="#About" className="text-gray-400 hover:text-white">
-                  About
-                </a>
+                <Link href="#About" className="text-gray-400 hover:text-white">
+                  About 
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="#Contact" className="text-gray-400 hover:text-white">
+                <Link href="#contact" className="text-gray-400 hover:text-white">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

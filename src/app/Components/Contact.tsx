@@ -5,6 +5,7 @@ import { FaPhoneAlt, FaRegEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
 
+
 // Your existing Contact component code
 const Contact = () => {
   const [fullName, setFullName] = useState("");
@@ -30,26 +31,26 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-[#090808] text-white font-sans">
+    <div className="bg-gray-400 text-white font-sans">
       <div className="container mx-auto py-16 px-8">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold">Contact</h1>
+          <h1 className="text-4xl font-bold text-blue-950">Contact</h1>
           <div className="border-b-2 border-white w-24 mx-auto mt-2"></div>
         </div>
         <div className="flex flex-col lg:flex-row justify-between">
           <div className="space-y-6 mb-8 lg:mb-0">
             <div className="flex items-center space-x-4">
-              <FaPhoneAlt className="text-2xl" />
-              <div>
+              <FaPhoneAlt className="text-2xl text-blue-950" />
+              <div className="text-blue-950">
                 <p>+92 3173198864</p>
                 <p>+92 3332421790</p>
               </div>
             </div>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4 text-blue-950">
               <FaRegEnvelope className="text-2xl" />
               <p>muhammadraheem4739733@gmail.com</p>
             </div>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4 text-blue-950">
               <FaLocationDot className="text-2xl" />
               <p>Pakistan Sindh,Sanghar</p>
             </div>
@@ -95,7 +96,7 @@ const Contact = () => {
               className="w-full p-4 bg-[#3A2A5B] rounded-full text-white"
               onClick={handleSubmit}
             >
-              Send Message.
+              Send Message
             </button>
           </div>
         </div>
@@ -105,3 +106,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+
